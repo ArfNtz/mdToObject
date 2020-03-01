@@ -2,6 +2,8 @@
 
 `mdToObject` feeds an object properties from a markdown text.
 
+A class is defined using pandoc's markdown <a href="https://pandoc.org/MANUAL.html#pandocs-markdown">syntax</a> : `{.className}`.
+
 # Example 
 
 ## a markdown
