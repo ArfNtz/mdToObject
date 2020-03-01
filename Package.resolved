@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "lex",
+        "repositoryURL": "https://github.com/ArfNtz/lex.git",
+        "state": {
+          "branch": "master",
+          "revision": "e169c1ec5e97fb259c241d70ecfd1adc71b381d1",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

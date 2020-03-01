@@ -1,8 +1,8 @@
 import Foundation
-import machine
+import mdToObject
 import lex
 
-// a markdon
+// a markdown
 let text_md = """
 # Title {.Flyer}
 ## SubTitle
@@ -27,4 +27,6 @@ let lexems = lex(text_md, md_dict)
 var f = Flyer()
 let keypaths = [\Flyer.title,\Flyer.subTitle,\Flyer.partTitle,\Flyer.partText,\Flyer.moreInfo]
 MdToObject.feed(object: &f, using: keypaths, from: lexems, className: "Flyer")
+
+// print
 print(f)
